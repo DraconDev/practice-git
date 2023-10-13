@@ -1,0 +1,11 @@
+[
+    {
+        "label": "test",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def test():\n    print(\"test\")\nif __name__ == \"__main__\":\n    test()",
+        "detail": "main",
+        "documentation": {}
+    }
+]
