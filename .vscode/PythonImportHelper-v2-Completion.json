@@ -4,7 +4,7 @@
         "kind": 2,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "def test():\n    print(\"test\")\ndef test2():\n    print(\"test2\")\nif __name__ == \"__main__\":\n    test()\n    test2()",
+        "peekOfCode": "def test():\n    print(\"test\")\ndef test2():\n    print(\"test2\")\ndef test3():\n    print(\"test3\")\nif __name__ == \"__main__\":\n    test()\n    test2()",
         "detail": "main",
         "documentation": {}
     },
@@ -13,7 +13,16 @@
         "kind": 2,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "def test2():\n    print(\"test2\")\nif __name__ == \"__main__\":\n    test()\n    test2()",
+        "peekOfCode": "def test2():\n    print(\"test2\")\ndef test3():\n    print(\"test3\")\nif __name__ == \"__main__\":\n    test()\n    test2()",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "test3",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def test3():\n    print(\"test3\")\nif __name__ == \"__main__\":\n    test()\n    test2()",
         "detail": "main",
         "documentation": {}
     }
