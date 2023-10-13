@@ -4,7 +4,16 @@
         "kind": 2,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "def test():\n    print(\"test\")\nif __name__ == \"__main__\":\n    test()",
+        "peekOfCode": "def test():\n    print(\"test\")\ndef test2():\n    print(\"test2\")\nif __name__ == \"__main__\":\n    test()\n    test2()",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "test2",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def test2():\n    print(\"test2\")\nif __name__ == \"__main__\":\n    test()\n    test2()",
         "detail": "main",
         "documentation": {}
     }
